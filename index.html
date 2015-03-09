@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html ng-app="DeliveryEvolution">
+<html ng-app="DeliveryEvolution" ng-controller="Global">
 <head>
+  <meta charset="utf-8">
   <script type="text/javascript" src="lib/angular.min.js"></script>
   <script type="text/javascript" src="lib/angular-route.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
+  <title ng-bind-template="Delivery Evolution {{version}}">Delivery Evolution</title>
 </head>
 <body>
   <div ng-view></div>
