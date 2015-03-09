@@ -4,7 +4,7 @@ var app = angular.module("DeliveryEvolution",[
   "ngRoute"
 ]);
 
-app.config([ "$routeProvider", "$locationProvider", "$sce", function($routeProvider, $locationProvider){
+app.config([ "$routeProvider", "$locationProvider", function($routeProvider, $locationProvider){
   $routeProvider.when("/",{
     templateUrl: "app/pages/main.html",
     controller: "PageMain"
